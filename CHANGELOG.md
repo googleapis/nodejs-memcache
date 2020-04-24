@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/googleapis/nodejs-memcache/compare/v1.0.0...v1.0.1) (2020-04-24)
+
+
+### Bug Fixes
+
+* remove eslint, update gax, fix generated protos, run the generator ([#13](https://www.github.com/googleapis/nodejs-memcache/issues/13)) ([93da9fb](https://www.github.com/googleapis/nodejs-memcache/commit/93da9fbf2da01ba4ba8caf6d3403cc08093dd5aa))
+
 ## 1.0.0 (2020-04-03)
 
 
