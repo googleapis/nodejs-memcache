@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://www.github.com/googleapis/nodejs-memcache/compare/v1.3.0...v1.4.0) (2021-01-29)
+
+
+### Features
+
+* add v1 version ([#88](https://www.github.com/googleapis/nodejs-memcache/issues/88)) ([105dc47](https://www.github.com/googleapis/nodejs-memcache/commit/105dc474f33479cca0888116a9d63a4f9abc59ac))
+
 ## [1.3.0](https://www.github.com/googleapis/nodejs-memcache/compare/v1.2.1...v1.3.0) (2021-01-09)
 
 
