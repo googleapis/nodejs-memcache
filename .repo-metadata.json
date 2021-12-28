@@ -12,5 +12,5 @@
   "api_id": "memcache.googleapis.com",
   "issue_tracker": "https://issuetracker.google.com/savedsearches/5169231",
   "api_shortname": "memcache",
-  "library_type": ""
+  "library_type": "GAPIC_AUTO"
 }
