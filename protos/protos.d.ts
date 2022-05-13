@@ -148,49 +148,49 @@ export namespace google {
                 namespace CloudMemcache {
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache|listInstances}.
+                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache#listInstances}.
                      * @param error Error, if any
                      * @param [response] ListInstancesResponse
                      */
                     type ListInstancesCallback = (error: (Error|null), response?: google.cloud.memcache.v1.ListInstancesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache|getInstance}.
+                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache#getInstance}.
                      * @param error Error, if any
                      * @param [response] Instance
                      */
                     type GetInstanceCallback = (error: (Error|null), response?: google.cloud.memcache.v1.Instance) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache|createInstance}.
+                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache#createInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache|updateInstance}.
+                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache#updateInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache|updateParameters}.
+                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache#updateParameters}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateParametersCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache|deleteInstance}.
+                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache#deleteInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache|applyParameters}.
+                     * Callback as used by {@link google.cloud.memcache.v1.CloudMemcache#applyParameters}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -1888,56 +1888,56 @@ export namespace google {
                 namespace CloudMemcache {
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache|listInstances}.
+                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache#listInstances}.
                      * @param error Error, if any
                      * @param [response] ListInstancesResponse
                      */
                     type ListInstancesCallback = (error: (Error|null), response?: google.cloud.memcache.v1beta2.ListInstancesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache|getInstance}.
+                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache#getInstance}.
                      * @param error Error, if any
                      * @param [response] Instance
                      */
                     type GetInstanceCallback = (error: (Error|null), response?: google.cloud.memcache.v1beta2.Instance) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache|createInstance}.
+                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache#createInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache|updateInstance}.
+                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache#updateInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache|updateParameters}.
+                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache#updateParameters}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateParametersCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache|deleteInstance}.
+                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache#deleteInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache|applyParameters}.
+                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache#applyParameters}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ApplyParametersCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache|applySoftwareUpdate}.
+                     * Callback as used by {@link google.cloud.memcache.v1beta2.CloudMemcache#applySoftwareUpdate}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -6233,9 +6233,6 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
-            /** FieldOptions unverifiedLazy */
-            unverifiedLazy?: (boolean|null);
-
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -6272,9 +6269,6 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
-
-            /** FieldOptions unverifiedLazy. */
-            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
@@ -8077,35 +8071,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|listOperations}.
+             * Callback as used by {@link google.longrunning.Operations#listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|getOperation}.
+             * Callback as used by {@link google.longrunning.Operations#getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
