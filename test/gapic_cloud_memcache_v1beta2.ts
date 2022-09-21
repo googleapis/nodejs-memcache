@@ -269,7 +269,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.GetInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('GetInstanceRequest', ['name']);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.GetInstanceRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -297,7 +300,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.GetInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('GetInstanceRequest', ['name']);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.GetInstanceRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -341,7 +347,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.GetInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('GetInstanceRequest', ['name']);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.GetInstanceRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -369,7 +378,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.GetInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('GetInstanceRequest', ['name']);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.GetInstanceRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedError = new Error('The client has already been closed.');
       client.close();
@@ -387,9 +399,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.CreateInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('CreateInstanceRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.CreateInstanceRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -419,9 +432,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.CreateInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('CreateInstanceRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.CreateInstanceRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -472,9 +486,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.CreateInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('CreateInstanceRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.CreateInstanceRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -502,9 +517,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.CreateInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('CreateInstanceRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.CreateInstanceRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -578,10 +594,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
         new protos.google.cloud.memcache.v1beta2.UpdateInstanceRequest()
       );
       request.resource ??= {};
-      const defaultValue1 = getTypeDefaultValue('UpdateInstanceRequest', [
-        'resource',
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.UpdateInstanceRequest',
+        ['resource', 'name']
+      );
       request.resource.name = defaultValue1;
       const expectedHeaderRequestParams = `resource.name=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -612,10 +628,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
         new protos.google.cloud.memcache.v1beta2.UpdateInstanceRequest()
       );
       request.resource ??= {};
-      const defaultValue1 = getTypeDefaultValue('UpdateInstanceRequest', [
-        'resource',
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.UpdateInstanceRequest',
+        ['resource', 'name']
+      );
       request.resource.name = defaultValue1;
       const expectedHeaderRequestParams = `resource.name=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -667,10 +683,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
         new protos.google.cloud.memcache.v1beta2.UpdateInstanceRequest()
       );
       request.resource ??= {};
-      const defaultValue1 = getTypeDefaultValue('UpdateInstanceRequest', [
-        'resource',
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.UpdateInstanceRequest',
+        ['resource', 'name']
+      );
       request.resource.name = defaultValue1;
       const expectedHeaderRequestParams = `resource.name=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -699,10 +715,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
         new protos.google.cloud.memcache.v1beta2.UpdateInstanceRequest()
       );
       request.resource ??= {};
-      const defaultValue1 = getTypeDefaultValue('UpdateInstanceRequest', [
-        'resource',
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.UpdateInstanceRequest',
+        ['resource', 'name']
+      );
       request.resource.name = defaultValue1;
       const expectedHeaderRequestParams = `resource.name=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -775,9 +791,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.UpdateParametersRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('UpdateParametersRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.UpdateParametersRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -807,9 +824,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.UpdateParametersRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('UpdateParametersRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.UpdateParametersRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -860,9 +878,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.UpdateParametersRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('UpdateParametersRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.UpdateParametersRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -890,9 +909,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.UpdateParametersRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('UpdateParametersRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.UpdateParametersRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -965,9 +985,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.DeleteInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('DeleteInstanceRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.DeleteInstanceRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -997,9 +1018,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.DeleteInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('DeleteInstanceRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.DeleteInstanceRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -1050,9 +1072,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.DeleteInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('DeleteInstanceRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.DeleteInstanceRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -1080,9 +1103,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.DeleteInstanceRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('DeleteInstanceRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.DeleteInstanceRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -1155,9 +1179,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ApplyParametersRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ApplyParametersRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ApplyParametersRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -1187,9 +1212,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ApplyParametersRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ApplyParametersRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ApplyParametersRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -1240,9 +1266,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ApplyParametersRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ApplyParametersRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ApplyParametersRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -1270,9 +1297,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ApplyParametersRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ApplyParametersRequest', [
-        'name',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ApplyParametersRequest',
+        ['name']
+      );
       request.name = defaultValue1;
       const expectedHeaderRequestParams = `name=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -1345,9 +1373,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ApplySoftwareUpdateRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ApplySoftwareUpdateRequest', [
-        'instance',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ApplySoftwareUpdateRequest',
+        ['instance']
+      );
       request.instance = defaultValue1;
       const expectedHeaderRequestParams = `instance=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -1377,9 +1406,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ApplySoftwareUpdateRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ApplySoftwareUpdateRequest', [
-        'instance',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ApplySoftwareUpdateRequest',
+        ['instance']
+      );
       request.instance = defaultValue1;
       const expectedHeaderRequestParams = `instance=${defaultValue1}`;
       const expectedResponse = generateSampleMessage(
@@ -1430,9 +1460,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ApplySoftwareUpdateRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ApplySoftwareUpdateRequest', [
-        'instance',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ApplySoftwareUpdateRequest',
+        ['instance']
+      );
       request.instance = defaultValue1;
       const expectedHeaderRequestParams = `instance=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -1460,9 +1491,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ApplySoftwareUpdateRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ApplySoftwareUpdateRequest', [
-        'instance',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ApplySoftwareUpdateRequest',
+        ['instance']
+      );
       request.instance = defaultValue1;
       const expectedHeaderRequestParams = `instance=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -1535,9 +1567,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ListInstancesRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ListInstancesRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ListInstancesRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedResponse = [
@@ -1573,9 +1606,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ListInstancesRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ListInstancesRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ListInstancesRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedResponse = [
@@ -1627,9 +1661,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ListInstancesRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ListInstancesRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ListInstancesRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -1657,9 +1692,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ListInstancesRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ListInstancesRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ListInstancesRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedResponse = [
@@ -1716,9 +1752,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ListInstancesRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ListInstancesRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ListInstancesRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedError = new Error('expected');
@@ -1764,9 +1801,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ListInstancesRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ListInstancesRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ListInstancesRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedResponse = [
@@ -1812,9 +1850,10 @@ describe('v1beta2.CloudMemcacheClient', () => {
       const request = generateSampleMessage(
         new protos.google.cloud.memcache.v1beta2.ListInstancesRequest()
       );
-      const defaultValue1 = getTypeDefaultValue('ListInstancesRequest', [
-        'parent',
-      ]);
+      const defaultValue1 = getTypeDefaultValue(
+        '.google.cloud.memcache.v1beta2.ListInstancesRequest',
+        ['parent']
+      );
       request.parent = defaultValue1;
       const expectedHeaderRequestParams = `parent=${defaultValue1}`;
       const expectedError = new Error('expected');
